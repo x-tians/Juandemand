@@ -1,0 +1,194 @@
+.landing {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+
+.landing-heading-1 {
+    margin-top: 15vh;
+    margin-left: 57%;
+    font-size: 100px;
+    transition: 250ms;
+    font-weight: bolder;
+}
+
+.landing-heading-2 {
+    margin-top: -45px;
+    margin-left: 66%;
+    font-size: 70px;
+    transition-delay: 250ms;
+    font-weight: bolder;
+}
+
+.landing-btn-1 {
+    width: 150px;
+    height: 75px;
+    border-radius: 12px;
+    margin-top: 70px;
+    margin-left: 20%;
+    background-color: #1a76d2;
+}
+
+.landing-btn-1-active {
+    width: 150px;
+    height: 75px;
+    border-radius: 12px;
+    margin-top: 70px;
+    margin-left: 20%;
+    background-color: white;
+}
+
+.landing-btn-2 {
+    width: 150px;
+    height: 75px;
+    border-radius: 12px;
+    margin-top: 30px;
+    transition: 250ms;
+}
+
+.landing-btn-2-active {
+    width: 150px;
+    height: 75px;
+    border-radius: 12px;
+    margin-top: 30px;
+    background-color: orange;
+    transition: 250ms;
+}
+
+.landing-btn-txt {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.landing-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-input {
+    width: 60%;
+    height: 50px;
+    border-radius: 0px 8px 8px 8px;
+    z-index: 1;
+    margin-top: -33px;
+    
+}
+
+.login-register {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-login, .landing-register {
+    width: 150px;
+    height: 60px;
+    border-radius: 12px;
+    font-size: 25px;
+}
+
+.landing-login {
+    margin-right: 50px;
+    background-color: #1a76d2;
+    transition: 250ms;
+}
+
+.landing-login:active {
+    background-color: #1866b4;
+}
+
+.landing-login-active {
+    margin-right: 50px;
+    background-color: white;
+    width: 150px;
+    height: 60px;
+    border-radius: 12px;
+    transition: 250ms;
+}
+
+.landing-register {
+    margin-left: 50px;
+    background-color: white;
+    transition: 250ms;
+}
+
+.landing-register:active {
+    background-color: #1866b4;
+}
+
+.landing-register-active {
+    margin-left: 50px;
+    background-color: orange;
+    width: 150px;
+    height: 60px;
+    border-radius: 12px;
+    transition: 250ms;
+}
+
+.log-log {
+    font-size: 25px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.how-to {
+    width: 100%;
+    height: 30vh;
+    background-color: #1a76d2;
+    margin-top: 68px;
+    transition: 250ms;
+}
+
+.how-to-active {
+    width: 100%;
+    height: 30vh;
+    background-color: orange;
+    margin-top: 68px;
+    transition: 250ms;
+}
+
+.how-to-container {
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.how-to-txt {
+    font-size: 40px;
+}
+
+.how-to-container-2 {
+    width: 100%;
+    height: 22.9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.how-to-1, .how-to-2, .how-to-3 {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.how-to-p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.how-to-line {
+    width: 150px;
+    border-bottom-style: solid;
+}

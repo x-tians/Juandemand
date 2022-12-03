@@ -1,0 +1,97 @@
+const mongoose=require('mongoose');
+const uniqueValidator = require('mongoose-unique-validator');
+
+const userSchema=new mongoose.Schema({
+    email:{
+        type:String,
+        required:true,
+        trim:true
+    },
+    password:{
+        type:String,
+        required:true,
+        trim:true
+    },
+    firstName:{
+        type:String,
+        required:true,
+        trim:true
+    },
+    lastName:{
+        type:String,
+        required:true,
+        trim:true
+    },
+    middleName:{
+        type:String,
+        required:true,
+        trim:true
+    },
+    contactNumber:{
+        type:String,
+        required:true,
+        trim:true
+    },
+    sex:{
+        type:String,
+        required:true,
+        trim:true
+    },
+    birthDate:{
+        type:String,
+        required:true,
+        trim:true
+    },
+    address:{
+        type:Array,
+        required:true,
+        trim:true
+    },
+    userImage:{
+        type:String,
+        required:true,
+        trim:true
+    },
+    userType: {
+        type: mongoose.Types.ObjectId,
+        ref: 'Usertype'
+    },
+    education:{
+        type:Array,
+        trim:true
+    },
+    skills:{
+        type:Array,
+        trim:true
+    },
+    experience:{
+        type:Array,
+        trim:true
+    },
+    otp:{
+        type:String,
+        required:true,
+        trim:true
+    },
+    token:{
+        type:String,
+        required:true,
+        trim:true
+    },
+    status:{
+        type:String,
+        required:true,
+        trim:true
+    },
+    ratings:{
+        type:Number,
+        required:true,
+        trim:true
+    }
+},
+    {
+        timestamps:true
+    }
+)
+
+module.exports=mongoose.model('User',userSchema.plugin(uniqueValidator))

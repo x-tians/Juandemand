@@ -1,0 +1,248 @@
+.whole-register {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registration-page-wrapper{
+    width: 80%;
+}
+
+.registration-main {
+    display: flex;
+}
+
+.disclaimer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding-bottom:30px;
+}
+
+.logodisclaimer {
+    display: flex;
+    justify-content: center;
+}
+
+.disclaimer p i {
+    font-size: 15px;
+    width: 100%;
+    color: gray;
+}
+#label {
+    padding: 5px 10px 5px 10px;
+}
+.sectionone {
+    display: flex;
+    /* justify-content: space-evenly; */
+    padding: 1% 1%;
+}
+.sectionone input {
+    width: 35%;
+    border: blue 1px solid;
+    border-radius: 15px;
+    padding: 2px 10px;
+    background: rgba(255, 255, 255, 0.2);
+    color: black;
+
+}
+.sectiontwo {
+    display: flex;
+    /* align-items: flex-start; */
+    /* justify-content: space-evenly; */
+    padding: 1% 1%;
+}
+.sectiontwo input {
+    width: 35%;
+    border: blue 1px solid;
+    border-radius: 15px;
+    padding: 2px 10px;
+}
+.sectionthree {
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 1% 1%;
+}
+.sectionthree input {
+    padding: 1px;
+    width: 35%;
+    border: blue 1px solid;
+    border-radius: 15px;
+    padding: 2px 10px;
+}
+.sectionfour {
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 1% 1%;
+}
+.sectionfour input {
+    padding: 1px;
+    width: 30%;
+    border: blue 1px solid;
+    border-radius: 15px;
+    padding: 2px 10px;
+    margin: 0% 1%;
+}
+.sectionfive{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 1% 1%;
+}
+.sectionfive input {
+    padding: 1px;
+    width: 30%;
+    border: blue 1px solid;
+    border-radius: 15px;
+    padding: 2px 10px;
+    margin: 0% 1%;
+}
+
+.submitbtn-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submitbtn{
+    width: 20%;
+    border-radius: 15px;
+    margin-left: 1%;
+    background-color: #1a76d2;
+    padding: 0px 10px;
+    font-size: 25px;
+    font-weight: 600;
+    transition: 100ms;
+}
+
+.submitbtn:hover {
+    background-color: #1866b4;
+}
+
+.submitbtn:active {
+    scale: 0.9;
+}
+
+.register-back-container {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    transition: 100ms;
+}
+
+.register-back-container:hover {
+    background-color: #1a76d2;
+}
+
+.register-back-container:active {
+    background-color: #1866b4;
+}
+
+#termsandpp{
+    font-size: 18px;
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+}
+#privacypolicylink {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.checkbox {
+    border: blue 2px solid;
+}
+#privacypolicylink input {
+margin-bottom: 2%;
+}
+#privacypolicylink p {
+    font-size: 18px;
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+    padding: 0% 1%;
+}
+.w-100{
+    width:100%;
+}
+.vh-100{
+    height: 100svh;
+}
+.h-100{
+    height:100%;
+}
+.sexbox{
+    /* padding: 5px; */
+    width: 20%;
+    border: blue 1px solid;
+    border-radius: 15px;
+    padding: 2px 10px;
+    margin: 0% 1%;
+    background-color: white;
+}
+.profile-information{
+    display: flex;
+    flex-direction: column;
+}
+.registration-information{
+    border:1px solid blue;
+    padding:2% 5%;
+    /* margin-left: 5%; */
+    border-radius: 3px;
+    height:100%;
+    width:100%;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+.registration-modal strong{
+    font-size: medium;
+    font-weight: 100;
+    text-align: center;
+}
+.agreement-wrapper{
+    width: 100%;
+    gap:7px;
+    padding:12px;
+    text-align: center;
+}
+.registration-form{
+    overflow:Auto;
+    height:385px;
+}
+.registration-back{
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.regformlogo {
+    width: 50px;
+    height: 50px;
+}
+
+.otp-input {
+    border-radius: 8px;
+}
+
+.otp-button {
+    border-radius: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: 100ms;
+}
+
+.otp-button:hover {
+    background-color: #1866b4;
+}
+
+.otp-button:active {
+    scale: 0.9;
+}

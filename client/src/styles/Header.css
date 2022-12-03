@@ -1,0 +1,27 @@
+ header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border-bottom-style: solid;
+    border-color: black;
+    border-width: 1px;
+ }
+ .handy {
+    width: 170px;
+    height: 60px;
+    margin: 10px 0px 10px 20px;
+ }
+
+ .logout {
+   width: 100px;
+   margin: 10px 20px 10px 0px;
+   border-style: solid;
+   border-radius: 8px;
+   background: #808080;
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 5px;
+ }

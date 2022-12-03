@@ -1,0 +1,73 @@
+
+.aboutuscontainer{
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    margin: 0% 10%;
+    color:black;
+    /* background-image: url(../assets/teampic.jpg); */
+    /* background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: center;
+    font-weight: 700;
+    opacity: 0.9; */
+}
+.teampic img{
+    height: 400px;
+    /* float:left; */
+    margin: 15px 22%;
+    align-items: center;  
+    border-radius: 8px; 
+}
+
+.teammember{
+    text-align: center;
+}
+.teammember img {
+    height: 200px;
+    padding: 1%;
+    align-items: center;
+    padding: 5px;
+    border-radius: 12px;
+}
+#one {
+    height: 250px;
+    width: 300px;
+    border: 1px solid blue;
+    margin: 5px;
+    border-radius: 10px;
+}
+.imgcontainer {
+    display: flex;
+    padding: 1%;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .teammember-img {
+    width: 200px;
+    height: 200px;
+} */
+
+.about-back-container {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-style: solid;
+    position: absolute;
+    top: 3vh;
+    left: 11%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+}
+
+.about-back-container:hover {
+    background-color: #1a76d2;
+}
+
+.about-back-container:active {
+    background-color: #1866b4;
+}
